@@ -1,4 +1,5 @@
-#pragma once
+#ifndef A_STAR_RANDOM_GRID_MANAGER_H
+#define A_STAR_RANDOM_GRID_MANAGER_H
 
 #include "GridManager.h"
 
@@ -15,3 +16,4 @@ public:
     std::vector<std::vector<int>> getGrid() override;
 };
 
+#endif

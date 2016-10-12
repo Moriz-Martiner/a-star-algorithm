@@ -1,4 +1,5 @@
-#pragma once
+#ifndef A_STAR_GRID_MANAGER_H
+#define A_STAR_GRID_MANAGER_H
 
 #include <vector>
 
@@ -23,3 +24,5 @@ public:
 
     void render();
 };
+
+#endif
