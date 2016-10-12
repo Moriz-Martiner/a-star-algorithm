@@ -11,10 +11,10 @@
 
 class RouteSolver {
 private:
-    GridManager gridManager;
+    GridManager *gridManager;
 
 public:
-    RouteSolver(GridManager gridManager);
+    RouteSolver(GridManager *gridManager);
 
     virtual ~RouteSolver();
 

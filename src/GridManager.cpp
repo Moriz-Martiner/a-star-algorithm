@@ -2,8 +2,14 @@
 #include "GridManager.h"
 
 GridManager::GridManager(int width, int height)
-        : grid((unsigned int) width, std::vector<bool>((unsigned int) height)) {
+: grid((unsigned int) width, vector<int>((unsigned int) height))
+{
+//    grid = std::vector((unsigned int) width, std::vector<int>((unsigned int) height));
 
+
+//    vector<vector<int>> vec((unsigned int) width, vector<int>((unsigned int) height));
+//
+//    grid = vec;
 }
 
 

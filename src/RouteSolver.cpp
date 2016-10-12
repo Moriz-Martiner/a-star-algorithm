@@ -4,7 +4,7 @@
 
 #include "RouteSolver.h"
 
-RouteSolver::RouteSolver(GridManager gridManager)
+RouteSolver::RouteSolver(GridManager *gridManager)
         : gridManager(gridManager) {
 }
 
