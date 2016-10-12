@@ -9,7 +9,7 @@ int main(int argc, char **argv) {
 
     vector<vector<int>> grid = gridManager->getGrid();
 
-    Display display(520, 480, "Hello, World!");
+    Display display(520, 480, "Hello World!");
 
     return 0;
 }
