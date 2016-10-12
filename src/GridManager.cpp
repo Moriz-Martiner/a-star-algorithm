@@ -1,5 +1,5 @@
 #include <iostream>
-#include "gridManager.h"
+#include "GridManager.h"
 
 GridManager::GridManager(int width, int height)
         : grid((unsigned int) width, std::vector<bool>((unsigned int) height)) {

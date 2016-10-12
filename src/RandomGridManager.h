@@ -1,6 +1,6 @@
 #pragma once
 
-#include "gridManager.h"
+#include "GridManager.h"
 
 class RandomGridManager :
         public GridManager {

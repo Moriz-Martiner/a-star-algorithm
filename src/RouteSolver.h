@@ -7,7 +7,7 @@
 
 
 #include <vector>
-#include "gridManager.h"
+#include "GridManager.h"
 
 class RouteSolver {
 private:

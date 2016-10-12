@@ -4,10 +4,10 @@ project(src)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
-        src/display.cpp
-        src/display.h
-        src/gridManager.cpp
-        src/gridManager.h
+        src/Display.cpp
+        src/Display.h
+        src/GridManager.cpp
+        src/GridManager.h
         src/main.cpp
         src/RandomGridManager.cpp
         src/RandomGridManager.h
