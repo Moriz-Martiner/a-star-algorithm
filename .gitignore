@@ -27,3 +27,7 @@
 *.exe
 *.out
 *.app
+
+# Intellij Directories
+.idea/
+src/.idea/
