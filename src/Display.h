@@ -1,4 +1,5 @@
-#pragma once
+#ifndef A_STAR_DISPLAY_H
+#define A_STAR_DISPLAY_H
 
 class Display {
 private:
@@ -10,3 +11,4 @@ public:
     ~Display();
 };
 
+#endif
